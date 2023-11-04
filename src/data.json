@@ -1,0 +1,30 @@
+[
+    {
+        "prenom": "Emmanuelle",
+        "nom": "Henry",
+        "email": "meaemma@gmail.com",
+        "compagnie": "LinkedIn",
+        "notes":"Voici mes notes"
+    },
+    {
+        "prenom": "Manny",
+        "nom": "Julien",
+        "email": "julMany@gmail.com",
+        "compagnie": "Yahoo",
+        "notes":"Voici mes enrégistrements de notes de l'année"
+    },
+    {
+        "prenom": "Diddy",
+        "nom": "Santander",
+        "email": "disantad@gmail.com",
+        "compagnie": "Google",
+        "notes":"Voici mes infos utiles du mois de novembre"
+    },
+    {
+        "prenom": "Solange",
+        "nom": "Dimademic",
+        "email": "soldima@gmail.com",
+        "compagnie": "LinkedIn",
+        "notes":"Ma première note"
+    }
+]

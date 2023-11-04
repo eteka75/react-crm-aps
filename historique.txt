@@ -1,0 +1,23 @@
+    1  cd c:/data/dev
+    2  cd symfony1
+    3  cd symfony/
+    4  sd symfony1/
+    5  cd symfony1/
+    6  composer req --dev make doctrine/doctrine-fixtures-bundle
+    7  cd c:/Data/dev/Docker
+    8  cd Docker1/
+    9  ls
+   10  python -v
+   11  composer config --global --auth github-oauth.github.com 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
+   12  npm init
+   13  code .
+   14  cd c:/
+   15  mkdire dev3.0
+   16  mkdir dev3.0
+   17  cd dev3.0/
+   18  mkdir reactjs
+   19  cd reactjs/
+   20  npx create-react-app crm
+   21  cd crm/
+   22  code .
+   23  history > historique.txt
