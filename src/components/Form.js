@@ -10,7 +10,8 @@ class Form extends Component {
             nom: event.target.nom.value,
             email: event.target.email.value,
             compagnie: event.target.compagnie.value,
-            notes: event.target.notes.value
+            notes: event.target.notes.value,
+            created_at: new Date()
         })
         document.getElementById('addContact').reset();
     }

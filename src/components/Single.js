@@ -2,7 +2,7 @@ import React from 'react';
 
 const Single=({item,deleteData}) =>{
     return(
-        <li className="col s12 l3 m6">
+        <li className="col s12 l4 m6">
             <div className='card'>
                 <div className="card-image">
                     <img src="./portrait.jpg" alt={item.title}/>
@@ -19,7 +19,14 @@ const Single=({item,deleteData}) =>{
                     </div>
                 </div>
                 <div className="card-action">
-                    <button   className="btn wave-effect waves-light red darken-2"> Supprimer </button> 
+                    <div className="row">
+                        <div className="col s6 center">
+                            <button onClick={()=>deleteData(item.id)}  className="btn wave-effect waves-light red darken-2"> Supprimer </button> 
+                        </div>
+                        <div className="col s6 center">
+                            <button onClick={()=>alert(item.id)}  className="btn mx-2 wave-effect waves-light blue darken-2"> Modifier </button> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </li>
